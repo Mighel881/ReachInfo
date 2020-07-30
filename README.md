@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="450" src="https://raw.githubusercontent.com/1DI4R/ReachInfo/master/ScreenShots/ReachInfo-banner.png?token=AHVDJHTNMUHSOHXJV6O3LWS7EMBGK">
+  <img height="280" src="https://raw.githubusercontent.com/1DI4R/ReachInfo/master/ScreenShots/ReachInfo-banner.png?token=AHVDJHTNMUHSOHXJV6O3LWS7EMBGK">
 </p>
 
 ## ReachInfo
