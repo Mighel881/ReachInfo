@@ -17,6 +17,9 @@ ReachInfo:
         - "*.xm"
     frameworks:
         - Cephei
+    objc_files:
+        - "ClockView.m"
+        - "./Widgets/*.m"
     # A list, excluding logos files, of files to compile. See variables section for more info. 
     # Min ios
     # List of archs we want to build for

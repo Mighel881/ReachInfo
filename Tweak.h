@@ -1,4 +1,6 @@
 #import <Cephei/HBPreferences.h>
+#include <CoreText/CTFontManager.h>
+#import "ClockView.h"
 
 
 @interface SBReachabilityBackgroundViewController : UIViewController
@@ -11,22 +13,20 @@
 @property (nonatomic,readonly) double effectiveReachabilityYOffset;    //@synthesize effectiveReachabilityYOffset=_effectiveReachabilityYOffset - In the implementation block
 @end
 
+
 @interface SBReachabilityWindow : UIWindow
 
-@end
 
-NSString *fontName;
-// @interface UIDevice : NSObject
-// @property(nonatomic, readonly, strong) NSString *name;
-// @end
+@end
 UIView *RIView;
+NSString *fontName;
+
 int H;
 BOOL kEnabled;
 NSString *kTemplate;
 BOOL kChevron;
 
 NSString *deviceName;
-NSString *deviceBatteryInHash = @"";
 
 #define clockFacePath @"/Library/Application Support/ReachInfo.bundle/ClockFace.png"
 #define clockSecPath @"/Library/Application Support/ReachInfo.bundle/ClockSec.png"

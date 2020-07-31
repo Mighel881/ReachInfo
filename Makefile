@@ -4,7 +4,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = ReachInfo
 
-ReachInfo_FILES = Tweak.xm
+ReachInfo_FILES = Tweak.xm ClockView.m ./Widgets/bashLike.m 
 ReachInfo_CFLAGS = -fobjc-arc
 ReachInfo_EXTRA_FRAMEWORKS += Cephei
 
