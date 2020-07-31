@@ -1,7 +1,5 @@
 #import <Cephei/HBPreferences.h>
 #include <CoreText/CTFontManager.h>
-#import "ClockView.h"
-
 
 @interface SBReachabilityBackgroundViewController : UIViewController
 @end

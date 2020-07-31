@@ -7,6 +7,8 @@
 //
 
 #import "../Tweak.h"
+#import "ClockView.h"
+
 
 @interface Clock : NSObject
 +(void)show;
