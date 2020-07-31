@@ -19,7 +19,7 @@
 
 
 - (void)layoutSubviews {
-    // layoutSubviews. i know. not a good method to hook. but its was also my only option, trust me its not that bad & i've done a lot of things to better the performance.
+    // layoutSubviews. i know. not a good method to hook. but its was also my only option, trust me its not that bad (in this case, since it wont get called as much) & i've done a lot of things to better the performance.
 
     %orig;
     [RIView removeFromSuperview]; // as @Muirey03 said
