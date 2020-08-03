@@ -19,10 +19,10 @@
 
 
 - (void)layoutSubviews {
-    // layoutSubviews. i know. not a good method to hook. but its was also my only option, trust me its not that bad (in this case, since it wont get called as much) & i've done a lot of things to better the performance.
+    // layoutSubviews. i know. not a good method to hook. but it was also my only option, trust me its not that bad (in this case, since it wont get called as much/it's not always on screen) & i've done a lot of things to better the performance.
 
     %orig;
-    [RIView removeFromSuperview]; // as @Muirey03 said
+    [RIView removeFromSuperview]; // thanks @Muirey03
     RIView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
     CGFloat height = [[%c(SBReachabilityManager) sharedInstance] effectiveReachabilityYOffset];
     RIView.frame = CGRectMake(self.frame.origin.x, -height + H, self.frame.size.width, height);
